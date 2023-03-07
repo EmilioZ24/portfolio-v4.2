@@ -8,8 +8,8 @@ html, body {
   min-height: 200px;
   background-image: linear-gradient(
     to right,
-    hsl(267, 78%, 29%),
-    hsl(345, 79%, 42%)
+    #E1F4CB,
+    #BACBA9
   );
   z-index: 1;
 }
@@ -23,8 +23,8 @@ html, body {
   left: 0;
   background-image: linear-gradient(
     to bottom,
-    hsl(344, 100%, 50%),
-    hsl(31, 100%, 40%)
+    #E1F4CB,
+    #3B443A
   );
   z-index: -1;
   transition: opacity 0.5s linear;
@@ -196,6 +196,10 @@ align-items: center;
    /* hide arrow tails background */
    
    background-color: transparent;
+}
+
+.table {
+  margin-left: 600px;
 }
 
 .card-body {
