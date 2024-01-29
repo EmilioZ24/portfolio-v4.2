@@ -3,6 +3,10 @@ html, body {
   width: 100%;
 }
 
+.bg-dark{
+  color: #255957;
+}
+
 .gradient {
   position: relative;
   min-height: 200px;
@@ -203,8 +207,8 @@ align-items: center;
 }
 
 .card-body {
-  background-color:black;
-  border-color:black;
+  background-color:#255957;
+  border-color:#255957;
   height: 100%;
 }
  
